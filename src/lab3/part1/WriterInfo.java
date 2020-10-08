@@ -1,6 +1,8 @@
 package lab3.part1;
 
 
+import java.util.Arrays;
+
 public class WriterInfo {
     public static void main(String[] args) {
         Sandals sandals = new Sandals(Producer.AMERICA, "Black", 9, true);

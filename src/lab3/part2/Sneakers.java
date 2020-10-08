@@ -11,7 +11,7 @@ public class Sneakers implements Shoes, Object {
 
     @Override
     public void print() {
-
+        System.out.println(String.format("Type of Shoes: Sneakers, Sole Type =  %s, Company Name: %s", SoleType, CompanyName));
     }
 
     @Override

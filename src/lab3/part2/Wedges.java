@@ -7,7 +7,7 @@ public class Wedges extends Sandals {
 
     @Override
     public void print() {
-
+        System.out.println(String.format("Type of Shoes: Wedges, Is open? =  %s", isOpen()));
     }
 
     @Override

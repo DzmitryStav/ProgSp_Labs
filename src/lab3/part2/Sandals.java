@@ -6,4 +6,8 @@ public abstract class Sandals implements Shoes, Object {
     public Sandals(boolean isOpen) {
         this.isOpen = isOpen;
     }
+
+    public boolean isOpen() {
+        return isOpen;
+    }
 }

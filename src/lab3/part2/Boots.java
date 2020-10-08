@@ -11,7 +11,7 @@ public class Boots implements Shoes, Object {
 
     @Override
     public void print() {
-
+        System.out.println(String.format("Type of Shoes: Boots, Heel Size =  %s, Type: %s", heelSize, type));
     }
 
     @Override
